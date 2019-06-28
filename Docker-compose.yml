@@ -4,6 +4,8 @@ services:
    image: monitor-service:latest   
    ports:
      - "9889:9889"
+   volumes:
+     - /Users/132326/Documents/code/bitbucket/bitbucket-ee/docker-service/logs:/logs
    networks:
      - dockernet
 networks:

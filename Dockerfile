@@ -5,7 +5,7 @@ FROM openjdk:8-jre-alpine
 LABEL maintainer="vferrario@rccl.com"
 
 # Add a volume pointing to /tmp
-VOLUME ./data
+
 
 # Make port 8080 available to the world outside this container
 EXPOSE 9889
