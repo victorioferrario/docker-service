@@ -6,8 +6,4 @@ services:
      - "9889:9889"
    volumes:
      - /home/fluentadm/docker-service/logs:/logs
-   networks:
-     - dockernet
-networks:
- dockernet:
-   external: true
+   network_mode: host
