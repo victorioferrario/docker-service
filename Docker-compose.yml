@@ -1,0 +1,11 @@
+version: "3.1"
+services:
+ monitor-service:
+   image: monitor-service:latest   
+   ports:
+     - "9889:9889"
+   networks:
+     - dockernet
+networks:
+ dockernet:
+   external: true
