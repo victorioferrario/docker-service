@@ -7,7 +7,7 @@ LABEL maintainer="vferrario@rccl.com"
 # Add a volume pointing to /tmp
 
 
-# Make port 8080 available to the world outside this container
+# Make port 8080 available to the world out side this container
 EXPOSE 9889
 
 # The application's jar file
